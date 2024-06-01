@@ -1,0 +1,1 @@
+export { default as component } from "../../../../src/routes/recursos/guia-de-profissoes/areas-de-atuacao/+page.svelte";

@@ -1,0 +1,1 @@
+export { default as component } from "../../../../src/routes/recursos/guia-de-profissoes/mercado-de-trabalho/+page.svelte";
