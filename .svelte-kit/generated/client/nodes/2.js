@@ -1,1 +1,1 @@
-export { default as component } from "../../../../src/routes/recursos/guia-de-profissoes/+layout.svelte";
+export { default as component } from "../../../../src/routes/+page.svelte";

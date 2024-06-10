@@ -15,9 +15,9 @@ module.exports = ({
       'action': '#85EBFF', //terciary
     },
     fontFamily: {
-      header: ['Rowdies', 'Serif'],
-      general: ['Quicksand', 'cursive'],
-      highlight: ["Tac One", "sans-serif"],
+      highlight: ['Righteous', 'serif'],
+      header: ['Concert One', 'serif'],
+      general: ['Nunito', 'sans-serif'],
     },
     spacing: {
       px: '1px',
