@@ -5,7 +5,7 @@
 /// <reference types="@sveltejs/kit" />
 
 /**
- * Environment variables [loaded by Vite](https://vitejs.dev/guide/env-and-mode.html#env-files) from `.env` files and `process.env`. Like [`$env/dynamic/private`](https://kit.svelte.dev/docs/modules#$env-dynamic-private), this module cannot be imported into client-side code. This module only includes variables that _do not_ begin with [`config.kit.env.publicPrefix`](https://kit.svelte.dev/docs/configuration#env) _and do_ start with [`config.kit.env.privatePrefix`](https://kit.svelte.dev/docs/configuration#env) (if configured).
+ * Environment variables [loaded by Vite](https://vitejs.dev/guide/env-and-mode.html#env-files) from `.env` files and `process.env`. Like [`$env/dynamic/private`](https://kit.svelte.dev/docs/modules#$env-dynamic-private), this module cannot be imported into client-side code. This module only includes variables that _do not_ begin with [`config.kit.env.publicPrefix`](https://kit.svelte.dev/docs/configuration#env).
  * 
  * _Unlike_ [`$env/dynamic/private`](https://kit.svelte.dev/docs/modules#$env-dynamic-private), the values exported from this module are statically injected into your bundle at build time, enabling optimisations like dead code elimination.
  * 
@@ -26,71 +26,73 @@
  * ```
  */
 declare module '$env/static/private' {
-	export const SHELL: string;
-	export const npm_command: string;
-	export const npm_config_userconfig: string;
-	export const SUPERVISOR_GROUP_NAME: string;
-	export const WORKSPACE_SERVICE_ACCOUNT_EMAIL: string;
-	export const npm_config_cache: string;
-	export const PKG_CONFIG_PATH: string;
-	export const PYTHONNOUSERSITE: string;
-	export const NODE: string;
-	export const COLOR: string;
-	export const npm_config_local_prefix: string;
-	export const MONOSPACE_ENV: string;
-	export const npm_config_globalconfig: string;
-	export const MONOSPACE_COMMIT_SHA: string;
-	export const EDITOR: string;
-	export const PWD: string;
-	export const NIX_PATH: string;
-	export const npm_config_init_module: string;
-	export const CUSTOM_ENV_ENABLED: string;
-	export const FIREBASE_DEPLOY_AGENT: string;
-	export const WEB_HOST: string;
-	export const HOME: string;
-	export const npm_package_version: string;
-	export const NIX_SSL_CERT_FILE: string;
-	export const PROMPT_COMMAND: string;
-	export const MONOSPACE_ON_START_COMMANDS: string;
-	export const WORKSPACE_SLUG: string;
-	export const MONOSPACE_ENV_CFG_HASH: string;
-	export const INIT_CWD: string;
-	export const npm_lifecycle_script: string;
-	export const npm_config_npm_version: string;
-	export const NPM_CONFIG_PREFIX: string;
-	export const IDX_CHANNEL: string;
-	export const npm_package_name: string;
-	export const ACLOCAL_PATH: string;
-	export const MONOSPACE_PREVIEW_CONFIG: string;
-	export const USER: string;
-	export const TZDIR: string;
-	export const NPM_CONFIG_GLOBALCONFIG: string;
-	export const NIX_BINTOOLS_WRAPPER_TARGET_HOST_x86_64_unknown_linux_gnu: string;
-	export const NIX_CFLAGS_LINK: string;
-	export const npm_lifecycle_event: string;
-	export const SHLVL: string;
-	export const NIX_CFLAGS_COMPILE: string;
-	export const LOCALE_ARCHIVE: string;
+	export const DEX2OATBOOTCLASSPATH: string;
+	export const TERMUX_MAIN_PACKAGE_FORMAT: string;
+	export const ANDROID_RUNTIME_ROOT: string;
+	export const npm_package_dependencies_yesvelte: string;
 	export const npm_config_user_agent: string;
-	export const PERMANENT_TAG: string;
-	export const npm_execpath: string;
-	export const MONOSPACE_ON_CREATE_COMMANDS: string;
-	export const LC_CTYPE: string;
-	export const SSL_CERT_FILE: string;
-	export const npm_package_json: string;
-	export const SUPERVISOR_PROCESS_NAME: string;
-	export const GOOGLE_CLOUD_WORKSTATIONS: string;
-	export const XDG_DATA_DIRS: string;
-	export const npm_config_noproxy: string;
-	export const PATH: string;
-	export const npm_config_node_gyp: string;
-	export const npm_config_global_prefix: string;
-	export const NIX_CC_WRAPPER_TARGET_HOST_x86_64_unknown_linux_gnu: string;
+	export const EXTERNAL_STORAGE: string;
+	export const npm_package_devDependencies_vite: string;
 	export const npm_node_execpath: string;
-	export const ORIG_IDX_PATH: string;
-	export const NIX_LDFLAGS: string;
-	export const SUPERVISOR_ENABLED: string;
+	export const SHLVL: string;
+	export const HOME: string;
+	export const OLDPWD: string;
+	export const npm_package_devDependencies__sveltejs_adapter_netlify: string;
+	export const TERMUX_APP_PID: string;
+	export const COREPACK_ROOT: string;
+	export const BOOTCLASSPATH: string;
+	export const npm_package_dependencies_konsta: string;
+	export const COLORTERM: string;
+	export const npm_package_devDependencies_tailwindcss: string;
+	export const TMPDIR: string;
+	export const npm_package_scripts_dev: string;
+	export const npm_package_devDependencies_prettier: string;
+	export const npm_package_type: string;
 	export const _: string;
+	export const npm_package_private: string;
+	export const npm_package_devDependencies_autoprefixer: string;
+	export const TERMUX_VERSION: string;
+	export const npm_package_scripts_lint: string;
+	export const npm_config_registry: string;
+	export const TERM: string;
+	export const ANDROID_DATA: string;
+	export const HISTCONTROL: string;
+	export const npm_config_node_gyp: string;
+	export const PATH: string;
+	export const npm_package_name: string;
+	export const NODE: string;
+	export const TERMUX_APK_RELEASE: string;
+	export const ANDROID_ROOT: string;
+	export const npm_package_devDependencies_postcss_load_config: string;
+	export const LD_PRELOAD: string;
+	export const LANG: string;
+	export const npm_lifecycle_script: string;
+	export const PREFIX: string;
+	export const npm_package_devDependencies__sveltejs_kit: string;
+	export const npm_package_devDependencies__tailwindcss_typography: string;
+	export const SHELL: string;
+	export const ANDROID_TZDATA_ROOT: string;
+	export const npm_package_version: string;
+	export const npm_lifecycle_event: string;
+	export const NODE_PATH: string;
+	export const npm_package_scripts_build: string;
+	export const npm_package_devDependencies_svelte: string;
+	export const TERMUX_IS_DEBUGGABLE_BUILD: string;
+	export const npm_config_foreground_scripts: string;
+	export const npm_package_dependencies_tailwindcss_animated: string;
+	export const npm_package_scripts_format: string;
+	export const PWD: string;
+	export const npm_execpath: string;
+	export const npm_package_dependencies_rippleui: string;
+	export const npm_package_devDependencies__sveltejs_adapter_auto: string;
+	export const npm_package_devDependencies_postcss: string;
+	export const npm_command: string;
+	export const PNPM_SCRIPT_SRC_DIR: string;
+	export const npm_package_scripts_preview: string;
+	export const npm_package_devDependencies_prettier_plugin_svelte: string;
+	export const npm_package_dependencies_svelte_feather_icons: string;
+	export const npm_package_dependencies_reveal_js: string;
+	export const INIT_CWD: string;
 	export const NODE_ENV: string;
 }
 
@@ -108,7 +110,7 @@ declare module '$env/static/public' {
 }
 
 /**
- * This module provides access to runtime environment variables, as defined by the platform you're running on. For example if you're using [`adapter-node`](https://github.com/sveltejs/kit/tree/master/packages/adapter-node) (or running [`vite preview`](https://kit.svelte.dev/docs/cli)), this is equivalent to `process.env`. This module only includes variables that _do not_ begin with [`config.kit.env.publicPrefix`](https://kit.svelte.dev/docs/configuration#env) _and do_ start with [`config.kit.env.privatePrefix`](https://kit.svelte.dev/docs/configuration#env) (if configured).
+ * This module provides access to runtime environment variables, as defined by the platform you're running on. For example if you're using [`adapter-node`](https://github.com/sveltejs/kit/tree/master/packages/adapter-node) (or running [`vite preview`](https://kit.svelte.dev/docs/cli)), this is equivalent to `process.env`. This module only includes variables that _do not_ begin with [`config.kit.env.publicPrefix`](https://kit.svelte.dev/docs/configuration#env).
  * 
  * This module cannot be imported into client-side code.
  * 
@@ -121,74 +123,76 @@ declare module '$env/static/public' {
  */
 declare module '$env/dynamic/private' {
 	export const env: {
-		SHELL: string;
-		npm_command: string;
-		npm_config_userconfig: string;
-		SUPERVISOR_GROUP_NAME: string;
-		WORKSPACE_SERVICE_ACCOUNT_EMAIL: string;
-		npm_config_cache: string;
-		PKG_CONFIG_PATH: string;
-		PYTHONNOUSERSITE: string;
-		NODE: string;
-		COLOR: string;
-		npm_config_local_prefix: string;
-		MONOSPACE_ENV: string;
-		npm_config_globalconfig: string;
-		MONOSPACE_COMMIT_SHA: string;
-		EDITOR: string;
-		PWD: string;
-		NIX_PATH: string;
-		npm_config_init_module: string;
-		CUSTOM_ENV_ENABLED: string;
-		FIREBASE_DEPLOY_AGENT: string;
-		WEB_HOST: string;
-		HOME: string;
-		npm_package_version: string;
-		NIX_SSL_CERT_FILE: string;
-		PROMPT_COMMAND: string;
-		MONOSPACE_ON_START_COMMANDS: string;
-		WORKSPACE_SLUG: string;
-		MONOSPACE_ENV_CFG_HASH: string;
-		INIT_CWD: string;
-		npm_lifecycle_script: string;
-		npm_config_npm_version: string;
-		NPM_CONFIG_PREFIX: string;
-		IDX_CHANNEL: string;
-		npm_package_name: string;
-		ACLOCAL_PATH: string;
-		MONOSPACE_PREVIEW_CONFIG: string;
-		USER: string;
-		TZDIR: string;
-		NPM_CONFIG_GLOBALCONFIG: string;
-		NIX_BINTOOLS_WRAPPER_TARGET_HOST_x86_64_unknown_linux_gnu: string;
-		NIX_CFLAGS_LINK: string;
-		npm_lifecycle_event: string;
-		SHLVL: string;
-		NIX_CFLAGS_COMPILE: string;
-		LOCALE_ARCHIVE: string;
+		DEX2OATBOOTCLASSPATH: string;
+		TERMUX_MAIN_PACKAGE_FORMAT: string;
+		ANDROID_RUNTIME_ROOT: string;
+		npm_package_dependencies_yesvelte: string;
 		npm_config_user_agent: string;
-		PERMANENT_TAG: string;
-		npm_execpath: string;
-		MONOSPACE_ON_CREATE_COMMANDS: string;
-		LC_CTYPE: string;
-		SSL_CERT_FILE: string;
-		npm_package_json: string;
-		SUPERVISOR_PROCESS_NAME: string;
-		GOOGLE_CLOUD_WORKSTATIONS: string;
-		XDG_DATA_DIRS: string;
-		npm_config_noproxy: string;
-		PATH: string;
-		npm_config_node_gyp: string;
-		npm_config_global_prefix: string;
-		NIX_CC_WRAPPER_TARGET_HOST_x86_64_unknown_linux_gnu: string;
+		EXTERNAL_STORAGE: string;
+		npm_package_devDependencies_vite: string;
 		npm_node_execpath: string;
-		ORIG_IDX_PATH: string;
-		NIX_LDFLAGS: string;
-		SUPERVISOR_ENABLED: string;
+		SHLVL: string;
+		HOME: string;
+		OLDPWD: string;
+		npm_package_devDependencies__sveltejs_adapter_netlify: string;
+		TERMUX_APP_PID: string;
+		COREPACK_ROOT: string;
+		BOOTCLASSPATH: string;
+		npm_package_dependencies_konsta: string;
+		COLORTERM: string;
+		npm_package_devDependencies_tailwindcss: string;
+		TMPDIR: string;
+		npm_package_scripts_dev: string;
+		npm_package_devDependencies_prettier: string;
+		npm_package_type: string;
 		_: string;
+		npm_package_private: string;
+		npm_package_devDependencies_autoprefixer: string;
+		TERMUX_VERSION: string;
+		npm_package_scripts_lint: string;
+		npm_config_registry: string;
+		TERM: string;
+		ANDROID_DATA: string;
+		HISTCONTROL: string;
+		npm_config_node_gyp: string;
+		PATH: string;
+		npm_package_name: string;
+		NODE: string;
+		TERMUX_APK_RELEASE: string;
+		ANDROID_ROOT: string;
+		npm_package_devDependencies_postcss_load_config: string;
+		LD_PRELOAD: string;
+		LANG: string;
+		npm_lifecycle_script: string;
+		PREFIX: string;
+		npm_package_devDependencies__sveltejs_kit: string;
+		npm_package_devDependencies__tailwindcss_typography: string;
+		SHELL: string;
+		ANDROID_TZDATA_ROOT: string;
+		npm_package_version: string;
+		npm_lifecycle_event: string;
+		NODE_PATH: string;
+		npm_package_scripts_build: string;
+		npm_package_devDependencies_svelte: string;
+		TERMUX_IS_DEBUGGABLE_BUILD: string;
+		npm_config_foreground_scripts: string;
+		npm_package_dependencies_tailwindcss_animated: string;
+		npm_package_scripts_format: string;
+		PWD: string;
+		npm_execpath: string;
+		npm_package_dependencies_rippleui: string;
+		npm_package_devDependencies__sveltejs_adapter_auto: string;
+		npm_package_devDependencies_postcss: string;
+		npm_command: string;
+		PNPM_SCRIPT_SRC_DIR: string;
+		npm_package_scripts_preview: string;
+		npm_package_devDependencies_prettier_plugin_svelte: string;
+		npm_package_dependencies_svelte_feather_icons: string;
+		npm_package_dependencies_reveal_js: string;
+		INIT_CWD: string;
 		NODE_ENV: string;
 		[key: `PUBLIC_${string}`]: undefined;
-		[key: `${string}`]: string | undefined;
+		[key: string]: string | undefined;
 	}
 }
 
