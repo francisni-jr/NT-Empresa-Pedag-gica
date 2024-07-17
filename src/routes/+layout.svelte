@@ -11,7 +11,8 @@ scroll-smooth rounded-t-xl
 bg-gradient-to-b from-elementary via-action to-base
 ">
   <header class="p-10 flex items-end justify-end">
-     <input type="checkbox" id="drawer-right" class="drawer-toggle" />
+    <div class="">
+       <input type="checkbox" id="drawer-right" class="drawer-toggle" />
 
 <label class="rounded-xl  flex 
     shadow-[1px_1px_30px_cyan] p-5 bg-action  text-elementary"  for="drawer-right"> 
@@ -19,25 +20,22 @@ bg-gradient-to-b from-elementary via-action to-base
 </label>
 <label class="overlay" for="drawer-right"></label>
 <div class="drawer drawer-right bg-transparent">
-	<div class="drawer-content bg-action pt-10 flex flex-col gap-10 h-full">
-		<label for="drawer-right" class="rounded-xl  flex
-    shadow-[1px_1px_30px_rgba(20,20,70,.6)] w-full p-5 bg-elementary
-    text-action p-5 font-header"><ChevronLeftIcon class="font-bold" /> FECHAR</label>
-    <a  href="/" class="w-full flex flex-col justify-center items-center">
-		    <img class="w-30" src="https://res.cloudinary.com/dtdz4se00/image/upload/v1713475087/Marca_PNG_tpcpob.png" alt="" />
-		  </a>
+	<div class="drawer-content bg-elementary  rounded-[20px] mx-5 mt-5  pt-10 flex flex-col gap-10 h-full">
+		<label for="drawer-right" class="rounded-xl  flex 
+    shadow-[1px_1px_60px_cyan] (DEMO VERSION!) font-header p-5 bg-action  text-elementary"><ChevronLeftIcon class="font-bold" /> FECHAR</label>
 		<div class="flex overflow-y-scroll flex-col justify-center items-start gap-5">
 		  <a class="font-header border-b w-full rounded-xl justify-center items-center p-5 flex gap-5
-		  text-elementary" href="/"><HomeIcon size="15" /> Início</a>
+		  text-action" href="/"><HomeIcon size="15" /> Início</a>
 		  <a class="font-header border-b w-full rounded-xl justify-center items-center p-5 flex gap-5
-		  text-elementary" href="/suporte"><HelpCircleIcon size="15" /> Suporte</a>
+		  text-action" href="/suporte"><HelpCircleIcon size="15" /> Suporte</a>
 		  <a class="font-header border-b w-full rounded-xl justify-center items-center p-5 flex gap-5
-		  text-elementary" href="/contato"><MessageSquareIcon size="15" /> Contato</a>
+		  text-action" href="/contato"><MessageSquareIcon size="15" /> Contato</a>
 		  <a class="font-header border-b w-full rounded-xl justify-center items-center p-5 flex gap-5
-		  text-elementary" href="/sobre"><PlusIcon size="15" /> Informações</a>
+		  text-action" href="/sobre"><PlusIcon size="15" /> Informações</a>
 		</div>
 	</div>
 </div>
+    </div>
      
   </header>
   
@@ -66,6 +64,5 @@ bg-gradient-to-b from-elementary via-action to-base
 
 
 <style type="text/css" media="all">
-
 
 </style>

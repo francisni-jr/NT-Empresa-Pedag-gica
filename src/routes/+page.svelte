@@ -17,7 +17,8 @@
 
 <main class="p-10">
   <section class="">
-    <h1 class="text-3xl text-center pb-10 font-header text-base">Essa é a
+    <h1 class="text-3xl text-center pb-10 font-header text-base"><span
+    class="text-3xl m-5" >Essa é a</span>
   <span
  class="font-highlight underline underline-offset-8 text-4xl">NOVO TALENTO </span></h1>
   <div class="flex w-full h-30 justify-center gap-4">
@@ -35,6 +36,7 @@
 <div class="divider font-highlight text-2xl p-5 mx-auto divider-vertical">
 	UM DIVISOR DE ÀGUAS
 	</div>
+	<img id="logo" class=" rounded-full w-30 mx-auto mb-10" src="https://res.cloudinary.com/dtdz4se00/image/upload/v1713475087/Marca_PNG_tpcpob.png" alt="" />
  
  
         <h2 class="text-3xl mt-20 text-center font-header mb-5">Por que?</h2>
@@ -170,5 +172,26 @@
 
 
 <style type="text/css" media="all">
+#logo {
+  animation: shadowdropless 3s ease-in-out infinite;
+  background: white;
+}
 
+@keyframes shadowdropless {
+  0% {
+    box-shadow:0 0 20px cyan;
+  }
+  25% {
+    box-shadow:0 0 20px darkblue;
+  }
+  50% {
+    box-shadow:0 0 20px white;
+  }
+  75% {
+    box-shadow:0 0 20px blue;
+  }
+  100% {
+    box-shadow:0 0 20px cyan;
+  }
+}
 </style>
