@@ -13,38 +13,22 @@
 </script>
 
 
-<main class="p-10 bg-base dark:bg-base">
-  <h1 class="text-3xl text-center pb-10 font-header text-elementary">Página de
+<main class="p-10">
+  <h1 class="text-3xl text-center pb-10 font-header">Página de
   <span
- class="font-highlight text-elementary underline underline-offset-8
- text-4xl">SUPORTE</span></h1>
+ class="font-highlight underline underline-offset-8
+ text-4xl">Suporte</span></h1>
  
- <section class="p-10 text-elementary">
-   <h1 class="text-3xl text-center pb-10 font-header text-">Entre em contato com
-   a nossa equipe e tenha seu problema resolvido</h1>
-   <div class="p-10 flex flex-col gap-10 border rounded-xl border-elementary">
-      <div class=" flex flex-col border-b border-elementary p-5
-   jstify-center items-center gap-5">
-     <a href="tel:+5583993654780" class="bg-elementary text-base p-5 rounded-xl" >
-       <MessageCircleIcon class="text-action"  size="30"  />
-     </a>
-     <h3 class="text-2xl text-elementary font-highlight">Telefone</h3>
-   </div>
-    <div class=" flex flex-col border-b border-elementary p-5
-   jstify-center items-center gap-5">
-     <a href="" class="bg-elementary text-base p-5 rounded-xl" >
-       <InstagramIcon class="text-action" size="30"  />
-     </a>
-     <h3 class="text-2xl text-elementary font-highlight">Instagram</h3>
-   </div>
-   
-   <div class=" flex flex-col border-b border-elementary p-5
-   jstify-center items-center gap-5">
-     <a href="mailto:agenciantpb@gmail.com" class="bg-elementary text-base p-5 rounded-xl" >
-       <MailIcon class="text-action" size="30"  />
-     </a>
-     <h3 class="text-2xl text-elementary font-highlight">Gmail</h3>
-   </div> 
-   </div>
+ <section class="p-10">
+   <h1 class="text-3xl text-center pb-10 font-header text-">Dúvidas frequentes
+   estarão aqui</h1>
+   <h3 class="text-xl ">Não há nenhuma pergunta a ser respondida!</h3>
+   <br />
+   <p>Que tal nos enviar uma na página de contato, sua
+   resposta aparecerá aqui!</p>
+   <br />
+   <br />
+   <a class="border-b border-elementary
+   text-elementary rounded-xl  p-5" href="/contato">Contato</a>
   </section>
 </main>

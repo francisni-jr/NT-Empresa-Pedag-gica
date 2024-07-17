@@ -15,10 +15,11 @@
 
 
 
-<main class="p-10 bg-base dark:bg-base">
-  <h1 class="text-3xl text-center pb-10 font-header text-">Essa é a
+<main class="p-10">
+  <section class="">
+    <h1 class="text-3xl text-center pb-10 font-header text-base">Essa é a
   <span
- class="font-highlight text- underline underline-offset-8 text-4xl">NOVO TALENTO </span></h1>
+ class="font-highlight underline underline-offset-8 text-4xl">NOVO TALENTO </span></h1>
   <div class="flex w-full h-30 justify-center gap-4">
 	<div id="card-1" class="card shadow-[0px_0px_200px_cyan] w-full bg-elementary max-w-full
 	items-center justify-center"><span
@@ -31,12 +32,12 @@
  class="font-highlight text-base underline underline-offset-8 text-4xl
  rounded-xl">TRABALHO</span></div>
 </div>
-<div class="divider text-elementary text-2xl p-5 mx-auto divider-vertical">
+<div class="divider font-highlight text-2xl p-5 mx-auto divider-vertical">
 	UM DIVISOR DE ÀGUAS
 	</div>
  
  
-        <h2 class="text-3xl mt-20 text-center text-elementary font-header mb-5">Por que?</h2>
+        <h2 class="text-3xl mt-20 text-center font-header mb-5">Por que?</h2>
 
         <p class="text-base p-10 rounded-xl text-2xl bg-elementary ">
          Nossos serviços estão direcionados a trazer mais pessoas para o mercado
@@ -46,6 +47,10 @@
          class="text-action"
          href="/sobre">apresentação</a>
         </p>
+  </section>
+        
+        
+        
  
  
 <!-- <section class="mt-30" >-->

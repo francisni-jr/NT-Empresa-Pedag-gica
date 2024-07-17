@@ -12,7 +12,7 @@ export const server_loads = [];
 
 export const dictionary = {
 		"/": [2],
-		"/recursos": [3],
+		"/contato": [3],
 		"/suporte": [4]
 	};
 
